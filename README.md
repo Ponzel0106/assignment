@@ -41,3 +41,13 @@ Below are the primary entities you’ll find in this codebase:
 3. **Propose and/or implement improvements**: Refactor, rewrite, or reorganize parts of the code to showcase your approach.
 
 ---
+
+Notes:
+   * SSN should not be shared as it is sensitive information. (encrypting, using tokens instead of SSN, integration with some SSN identity provider etc.)
+   * Authorization must be added in order to manage appointments.
+   * Deduplication of SSN must be added on DB layer.
+   * In the future I would decouple logic of Patient and Appointment management from Hospital Service into separate services
+   * Validation has been added
+   * Packaging structured
+   * Lack of test coverage
+   * Future extension with Patient management API
