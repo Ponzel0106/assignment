@@ -51,3 +51,5 @@ Notes:
    * Packaging structured
    * Lack of test coverage
    * Future extension with Patient management API
+   * Logging can be improved
+   * Error handling must be improved as well
